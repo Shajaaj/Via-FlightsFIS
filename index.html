@@ -13,3 +13,7 @@
 <td>On Time</td>
 </tr>
 </table>
+
+fetch("https://www.fis.com.mv/xml/depart.xml")
+  .then(r => r.text())
+  .then(console.log)
